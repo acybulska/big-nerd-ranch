@@ -106,7 +106,9 @@ a {
     width: 90%;
 }
 
-@media all and (min-width: 768px) {
+/* @media all and (min-width: 768px) { */
+
+@media all and (orientation: landscape) {
     .main-content {
         flex-direction: row;
         overflow: hidden;
