@@ -14,5 +14,5 @@ npm install browser-sync
 Then:
 ```bash
 cd otterland
-browser-sync start --server --files "style/style.css, *.html"
+browser-sync start --server --files "style/style.css, *.html, scripts/*.js"
 ```
